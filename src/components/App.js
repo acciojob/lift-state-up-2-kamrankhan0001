@@ -15,7 +15,7 @@ import './../styles/App.css';
     return(
       <div className="parent">
        <Child inputValue={inputValue} handleInputChange={handleInputChange}/>
-       <input type="text" value={inputValue} placeholder="Write Something Here" onChange={handleInputChange}/>  
+         
       </div>
     )
     }
@@ -26,6 +26,7 @@ import './../styles/App.css';
             {/* Do not remove the main div */}
             <h1>Parent Component</h1>
             <h2>Child Component</h2>
+            <input type="text" value={inputValue} placeholder="Write Something Here" onChange={handleInputChange}/>
         </div>
       )
     }
